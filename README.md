@@ -1,5 +1,5 @@
 # VNOC5 Tournament Overlay - by [Boy]DaLat
-Overlay and Controller are in [Releases](https://github.com/FukutoTojido/vcl-guide)
+Overlay and Controller are in [Releases](https://github.com/FukutoTojido/vcl-guide/releases)
 ## Available scenes
 - `/`: Main Overlay, used when a match is playing
 - `#/mappool`: Mappool Scene, switch to this scene when the match is having a Protect-Ban-Pick session
