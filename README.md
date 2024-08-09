@@ -37,6 +37,7 @@ You must follow these steps in the correct order:
 - Select the current stage
 - Select the current match
 - Change the match log format (switch Map Slots' state to Pick / Ban / Protect respectively to the current stage)
+- Turn on "Beatmap Details"
 - When a beatmap is picked, left-click the desired Map Slot and select that beatmap. In case you fucked up, you can right-click the Map Slot to remove the beatmap from the slot.
 
 ## Configurations
