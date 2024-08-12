@@ -28,10 +28,20 @@ You must follow these steps in the correct order:
 - Start `tosumemory` (wait for them to load all clients)
 - Start `VNOC5 Overlay Controller`
 - Use the scene on OBS by opening these urls on Browser Source:
-  - Overlay: `https://127.0.0.1:24050/VNOC5/`
-  - Mappool: `https://127.0.0.1:24050/VNOC5/#mappool`
-  - Winner: `https://127.0.0.1:24050/VNOC5/#winner`
-  - Showcase: `https://127.0.0.1:24050/VNOC5/#showcase`
+  - Overlay: `http://127.0.0.1:24050/VNOC5/`
+  - Mappool: `http://127.0.0.1:24050/VNOC5/#/mappool`
+  - Winner: `http://127.0.0.1:24050/VNOC5/#/winner`
+  - Showcase: `http://127.0.0.1:24050/VNOC5/#/showcase`
+
+- Note: For Showcase Scene, in order to change Stage Name, please use `/#/showcase/:stageId`. In which `stageId` respectively correspond to:
+  - `0`: Qualifiers
+  - `1`: Swiss Stage 1 + 2
+  - `2`: Swiss Stage 3 + 4
+  - `3`: Swiss Stage 5
+  - `4`: Knockout Week 1
+  - `5`: Knockout Week 2
+  - `6`: Knockout Week 3
+> E.g: `http://127.0.0.1:24050/VNOC5/#/showcase/1`
 
 ## Use the Controller
 - Select the current stage
