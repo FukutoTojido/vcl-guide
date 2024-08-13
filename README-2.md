@@ -5,6 +5,7 @@ Overlay and Controller are in [Releases](https://github.com/FukutoTojido/vcl-gui
 - `#/mappool`: Mappool Scene, switch to this scene when the match is having a Protect-Ban-Pick session
 - `#/winner`: Winner Scene, switch to this scene when the match has ended
 - `#/showcase`: Showcase Scene, used for mappool showcase
+- `#/countdown`: Countdown Scene, including schedule
 ## Setup
 ### Overlay
 - Extract the overlay and put it in your `tosumemory/static` folder under a folder named `VNOC5` **(MANDATORY! DO NOT CHANGE THE FOLDER NAME TO ANYTHING ELSE)**
@@ -32,6 +33,7 @@ You must follow these steps in the correct order:
   - Mappool: `http://127.0.0.1:24050/VNOC5/#/mappool`
   - Winner: `http://127.0.0.1:24050/VNOC5/#/winner`
   - Showcase: `http://127.0.0.1:24050/VNOC5/#/showcase`
+  - Countdown: `http://127.0.0.1:24050/VNOC5/#/countdown`
 
 - Note: For Showcase Scene, in order to change Stage Name, please use `/#/showcase/:stageId`. In which `stageId` respectively correspond to:
   - `0`: Qualifiers
@@ -42,6 +44,9 @@ You must follow these steps in the correct order:
   - `5`: Knockout Week 2
   - `6`: Knockout Week 3
 > E.g: `http://127.0.0.1:24050/VNOC5/#/showcase/1`
+
+- Note: For Countdown Scene, to configure the countdown destination, please add the `dest` parameter into the URL, with `dest` correspond to the local time of the match (mm:ss)
+> E.g: `http://127.0.0.1:24050/VNOC5/#/countdown?dest=21:00`
 
 ## Use the Controller
 - Select the current stage
