@@ -26,7 +26,6 @@
 ## Lưu ý về chuyển scene OBS
 - Trừ countdown, scene mở đầu trận đấu sẽ **luôn luôn** là mappool
 - Chỉ chuyển qua scene Gameplay **khi cả 2 client player đã load map xong** - streamer cần dùng Studio Mode để theo dõi scene
-- 
 
 ## Nếu overlay lỗi
 😂
