@@ -31,7 +31,7 @@
 
 ## Stream procedure
 - **thứ tự mở app vô cùng quan trọng!!!!** client -> tosu -> controller -> obs
-- mở controller trong `/StreamKit/_controller/vcl_server.exe` (lần đầu mở thì windows sẽ có thông báo firewall gì đó, nhớ bấm allow)
+- mở controller trong `/Assets/_controller/vcl_server.exe` (lần đầu mở thì windows sẽ có thông báo firewall gì đó, nhớ bấm allow)
 - trong controller -> config thứ tự ban pick (check chat streamer để có số lượt protect ban pick cho mỗi round)
 - khi tới lượt hành động của player nào thì chọn slot tương ứng
 - nếu chọn sai map trong slot, click chuột phải vào slot đó để reset
