@@ -1,19 +1,20 @@
 # VNOC5 Stream Kit & Guide
 
 ## Những file cần thiết
-- Streamer Kit: trong mục [Releases](https://github.com/FukutoTojido/vcl-guide/releases)
-- Snaz (dùng để countdown) cái này tương lai sẽ không cần
-- [tosu](https://github.com/KotRikD/tosu)
+- Streamer Kit: pinned message trong chat stream
+- tosu và các file liên quan của overlay đã có trong stream kit
 
 ## Setup overlay
 - Giải nén stream kit vào đâu cũng được **TRỪ Ổ `C:`**
-- tosu overlay: copy folder `VNOC5` trong `/StreamKit/tosu_overlay` vào `/tosu/static/`
+- tosu overlay: chạy thẳng instance trong `/Assets/_tosu`
 - Cài đặt font (nhớ chọn `Install for all user`)
-- Mở OBS -> Scene Collection -> Import -> kéo thả file `VNOC5.json` trong `/StreamKit/OBS` vào và chọn import
+- Cài đặt plugin Advanced Scene Switcher trong folder `OBS files`
+- Mở OBS -> Scene Collection -> Import -> kéo thả file `VNOC5.json` trong `/Assets/OBS files` vào và chọn import
 - Sửa lại setting audio device trong các scene AUDIO
   - caster only: chọn app Discord
   - gameplay: chọn Tournament Client 0
   - streamer mic _(chỉ những streamer có role caster)_: chọn lại đúng device mic và kiểm tra xem có filter chưa (chuột phải -> filters -> nếu thấy có filter noise reduction thì ok)
+- Copy các file cfg & skins cho client stream trong folder `osu files`
 
 ## Stream procedure
 - **thứ tự mở app vô cùng quan trọng!!!!** client -> tosu -> controller -> obs
